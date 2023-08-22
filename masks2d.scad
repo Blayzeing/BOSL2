@@ -431,7 +431,7 @@ function mask2d_dovetail(edge, angle=30, inset=0, shelf=0, excess=0.01, x, y, an
 // Example: Masking by Edge Attachment
 //   diff()
 //   cube([50,60,70],center=true)
-//       edge_profile(BOT)
+//       edge_profile(TOP)
 //           mask2d_teardrop(r=10, angle=40);
 // Example: Making an interior teardrop fillet
 //   %render() difference() {
